@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from './Components/Header'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <main className='overflow-hidden'>
+    <Header/>
+    </main>
   )
 }
 
