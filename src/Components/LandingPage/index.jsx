@@ -1,7 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import { Link as LinkScroll } from "react-scroll";
-import Button from '../../ReusableComponents/button';
+import Button from '../../ReusableComponents/Button/index';
 
 
 
