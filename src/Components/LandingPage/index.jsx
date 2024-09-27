@@ -1,8 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import { Link as LinkScroll } from "react-scroll";
-
-
+import Button from '../../ReusableComponents/button';
 
 
 
@@ -26,7 +25,7 @@ const LandingPage = () => {
                 We designed XORA AI Video Editor to be an easy to use, quick to learn 
                 and surprisingly powerful </p>
                 <LinkScroll to="Features" offset={-100} spy smooth>
-                Text
+                <Button icon="/images/zap.svg">Try it now</Button>
                 </LinkScroll>
             </div>
         </div>
