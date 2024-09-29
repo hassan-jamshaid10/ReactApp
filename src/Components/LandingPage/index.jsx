@@ -3,8 +3,6 @@ import { Element } from 'react-scroll';
 import { Link as LinkScroll } from "react-scroll";
 import Button from '../../ReusableComponents/Button/index';
 
-
-
 const LandingPage = () => {
   return (
     <section className='relative pt-60 pb-40
@@ -28,7 +26,6 @@ const LandingPage = () => {
                 <Button icon="/images/zap.svg">Try it now</Button>
                 </LinkScroll>
             </div>
-
             <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
             <img
               src="/images/hero.png"
