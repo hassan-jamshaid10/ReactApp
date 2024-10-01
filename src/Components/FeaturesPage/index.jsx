@@ -1,13 +1,13 @@
 import React from 'react';
 import { features } from '../../Constants';
-import { Element } from 'react-scroll';
+import {  Link as LinkScroll,Element } from 'react-scroll';
 import Button from '../../ReusableComponents/Button/index';
 import DetailsPage from '../Details/index';
 
 const FeaturesPage = () => {
   return (
   <section>
-   <Element name="featuresPage">
+   <Element name="features">
     <div className='container'>
         <div className='relative flex md:flex-wrap flex-nowrap border-2 
         border-s3 rounded-7xl md:overflow-hidden max-md:flex-col feature-after md:g7
@@ -20,7 +20,7 @@ const FeaturesPage = () => {
              <div className='w-full flex justify-start items-start'>
                 <div className='-ml-3 mb-12 flex items-center justify center flex-col'>
                     <div className='w-0.5 h-16 bg-s3'/>
-              <img src={icon} className='size-28 object-container' alt={title}/>
+              <img src={icon} className='size-28 object-contain' alt={title}/>
                </div>
              </div>
              <p className="caption mb-5 max-md:mb-6">{caption}</p>
