@@ -6,6 +6,7 @@ import FeaturesPage from './Components/FeaturesPage';
 import Pricing from './Components/Pricing/index';
 import Faq from './Components/Faq/index';
 import Testimonials from './Components/Testimonials';
+import Download from './Components/Downloads';
 const App = () => {
   return (
     <main className='overflow-hidden'>
@@ -15,6 +16,7 @@ const App = () => {
     <Pricing/>
     <Faq/>
     <Testimonials/>
+    <Download/>
     </main>
   )
 }
