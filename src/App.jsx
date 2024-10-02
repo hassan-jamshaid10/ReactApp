@@ -5,6 +5,7 @@ import LandingPage from './Components/LandingPage';
 import FeaturesPage from './Components/FeaturesPage';
 import Pricing from './Components/Pricing/index';
 import Faq from './Components/Faq/index';
+import Testimonials from './Components/Testimonials';
 const App = () => {
   return (
     <main className='overflow-hidden'>
@@ -13,6 +14,7 @@ const App = () => {
     <FeaturesPage/>
     <Pricing/>
     <Faq/>
+    <Testimonials/>
     </main>
   )
 }
