@@ -1,7 +1,7 @@
 import { Element } from "react-scroll";
 import { faq } from '../../Constants/index.jsx';
 import FaqItem from "../../ReusableComponents/FaqItem/index.jsx";
-
+//for deployment
 const Faq = () => {
   const halfLength = Math.floor(faq.length / 2);
 
