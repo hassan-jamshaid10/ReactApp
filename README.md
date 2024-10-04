@@ -20,7 +20,7 @@ This repository contains the source code for the landing page of **Xora**, an AI
 - **Reusable Components**: Efficient and scalable layout with reusable components.
 
 ## Screenshots
-![Xora Landing Page Screenshot](./src/Screenshot 2024-10-04 233940.png)
+![Xora Landing Page Screenshot](./src/Screenshot%202024-10-04%20233940.png)
 
 
 ## Technologies Used
