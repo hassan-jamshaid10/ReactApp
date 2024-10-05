@@ -20,7 +20,8 @@ This repository contains the source code for the landing page of **Xora**, an AI
 - **Reusable Components**: Efficient and scalable layout with reusable components.
 
 ## Screenshots
-Add screenshots of the landing page here.
+![Xora Landing Page Screenshot](./src/Screenshot%202024-10-04%20233940.png)
+
 
 ## Technologies Used
 - **React.js**: JavaScript library for building the user interface.
